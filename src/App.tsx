@@ -1,10 +1,10 @@
 import React from 'react';
-import ProgressBar from './components/ProgressBar';
+import {ProgressBar} from './components/ProgressBar';
 import './styles/global.css';
 
 function App() {
   return (
-    <div>    
+    <div className='container'>    
       <ProgressBar/>  
     </div>
   );
