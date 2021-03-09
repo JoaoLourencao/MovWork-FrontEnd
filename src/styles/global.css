@@ -5,15 +5,16 @@
 }
 
 :root{
-    --white:#fff;
-    --background:#f2f3f5;
-    --gray-line:#dcddeb;
-    --text:#666;
+    --white:#181818;
+    --white-color:#fff;
+    --background:#000;
+    --gray-line:#575757;
+    --text:#fff;
     --text-highlight:#b3b9ff;
     --title:#2e384d;
     --red:#e83f5b;
     --green:#4cd62b;
-    --blue:#5965e0;
+    --blue:#4953b8;
     --blue-dark:#4953b8;
     --blue-twitter:#2aa9e0;
 }
@@ -29,6 +30,7 @@
         font-size: 87.5%;
     }
 }
+
 body{
     background: var(--background);
     color:var(--text);
@@ -41,6 +43,8 @@ body, input, textarea, button{
 
 button{
     cursor: pointer;
+    border: none;
+    outline: none;
 }
 
 a{
